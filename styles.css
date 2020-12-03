@@ -3,45 +3,56 @@ body {
   padding: 0;
   text-align: center;
   font-family: 'Roboto', sans-serif;
-  color: #2F4F4F;
-  background: #FA8072;
+  color: white;
+  background: teal;
+}
+
+h1 {
+  text-decoration: underline;
 }
 
 a {
   text-decoration: none;
   color: #2F4F4F;
-}
+ }
+
 p {
   padding:55px;
-  color:#FFDAB9;
+  color:white;
 }
+
 .main-icons {
   width: 100%;
-  background: #FFDAB9;
+  background: PaleTurquoise;
   min-height: 30px;
-  padding: 10px;
-  position: fixed;
-  text-align: center;
+  padding: 20px;
+  position: top: 0;
 }
+
 .icons {
-  display: flex;
-  justify-content: space-around;
-  
   font-weight: 700;
   list-style-type: none;
-  margin: 0 auto;
   padding: 0;
 }
 
-footer ul {
+.skills {
+  font-weight: 700;
   list-style-type: none;
-  margin: 0;
   padding: 0;
-  word-spacing: 200px;
+}
+
+.headers {
+  color: white;
+}
+
+.home {
+  color: white;
+  
 }
 
 footer ul li {
   display: inline;
+  color: white;
 }
 
 footer {
