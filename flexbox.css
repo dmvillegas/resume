@@ -1,0 +1,32 @@
+/* 
+  Flexbox
+ */
+ body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100hv;
+}
+
+footer ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-around;
+  
+}
+
+.home {
+  display: flex;
+  justify-content: flex-center;
+}
+
+.icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.skills {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  }
