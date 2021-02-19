@@ -4,29 +4,81 @@
  body {
   display: flex;
   flex-direction: column;
-  min-height: 100hv;
-}
+ }
 
-footer ul {
+.name {
   display: flex;
   flex-wrap: wrap;
-  justify-content:space-around;
-  
+  justify-content: flex-start;
 }
 
-.home {
-  display: flex;
-  justify-content: flex-center;
+.studentTag { 
+  flex-grow: ; 
+  text-align: left;
 }
 
-.icons {
+.training {
+ display: flex;
+ flex-direction: column;
+ padding: 15px;
+ text-align: left;
+ font-size: 20px; 
+}
+
+
+.trainInfo {
+ display: flex;
+ flex-direction: column; 
+ padding: 10px;
+ font-size: 15px;
+ margin: 10px;
+ text-align: left;
+ font-size: 15px; 
+  width: 600px;
+
+}
+
+.aboutFlex  {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: row;
   justify-content: space-around;
+  flex: 1;
+  width: 1200px;
+  padding-top: 30px;
 }
+ 
+ .songsflex {
+ display: flex;
+ flex-direction: column;
+ padding: 15px;
+ text-align: left;
+ font-size: 20px; 
 
-.skills {
+ }
+
+ .icons a {
+ 	display: flex;
+ 	justify-content: space-around;
+ }
+
+ .table {
   display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  }
+  color: white;
+  background-color: #ffa500;
+ }
+
+ .row {
+ 	display: flex;
+    color: orange;
+    background-color: #fcfcfc;
+    padding: 30px;
+    width: 300px;
+    height: 15px;
+    float: center;
+ }
+
+ .col {
+ 	flex:1;
+   }
+
+
