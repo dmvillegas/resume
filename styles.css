@@ -1,68 +1,188 @@
 body {
-  margin: 0;
-  padding: 0;
-  text-align: center;
-  font-family: 'Roboto', sans-serif;
+  margin: 20;
+  padding: 20;
+  text-align: left;
+  font-family: Optima, sans-serif;
   color: white;
-  background: teal;
+  background-color:  #21211F;
+  
+
 }
+
+ul {
+  list-style-type: none;
+}
+
 
 h1 {
-  text-decoration: underline;
+  font-size: 25px;
+  margin: 10px;
 }
 
-a {
-  text-decoration: none;
-  color: #2F4F4F;
- }
 
-p {
-  padding:55px;
-  color:white;
+#list {
+  list-style-type: none;
+
 }
 
-.main-icons {
-  width: 100%;
-  background: PaleTurquoise;
-  min-height: 30px;
-  padding: 20px;
-  position: top: 0;
+.solidBorder {
+  border: solid;
+  color:rgba(255,182,185,1);
+  background-color: #FCFCFC;
+  padding: 30px;
+
 }
 
 .icons {
+  overflow: hidden;
+  position: sticky;
   font-weight: 700;
   list-style-type: none;
-  padding: 0;
+  margin: 10px;
+  color: #21211F;
 }
 
-.skills {
-  font-weight: 700;
-  list-style-type: none;
-  padding: 0;
+ .icons a {
+  float: right;
+  color: #21211F;
+  text-align: right;
+  padding: 5px 20px;
+  text-decoration: none;
+  border: solid orange;
+  border-radius: 6px;
+  margin: 15px;
 }
+
+.icons a:hover {
+color: orange;
+}
+
+.center {
+   color: orange;
+   font-size: 40px;
+   text-align: center;
+}
+
+.right {
+  float: right;
+}
+
+.left {
+  float: left;
+  font-size: 25px;
+  margin: 10px;
+  color: orange;
+}
+
+
+.nameTag {
+  position: absolute;
+  right: 318px;
+  list-style-type: none;
+  font-size: 75px;
+  margin-top: 180px;
+  font-family: Optima, sans-serif;
+  color:rgba(255,182,185,1);
+}
+
+#lastName {
+  margin-left: 12px;
+}
+
+
+.backgroundSplit1 {
+  background-color: #FCFCFC;
+
+}
+
+.studentTag {
+ color: rgb(255, 148, 77);
+ font-size: 15px;
+ margin: 15px;
+ padding-bottom: 70px;
+}
+
+
 
 .headers {
-  color: white;
+  color: red;
 }
 
-.home {
-  color: white;
-  
+
+.main-image {
+ height:500px;
+ margin-left: 550px;
+ margin-top: 80px;
+ border: solid;
+color:orange;
+
 }
 
-footer ul li {
-  display: inline;
-  color: white;
+.mexicoImage {
+height: 350px;
+padding: 30px;
+margin-left: 90px;
+
+}
+.projectImg {
+ height: 350px;
+ padding: 30px;
+ margin-left: 90px;
+ width: 350px;
 }
 
-footer {
-  width: 100%;
-  min-height: 30px;
-  padding: 20px 0 40px 20px;
+#authorName {
+  margin: 15px;
 }
 
-footer {
-    font-size: 12px;
-    max-width: 1200px;
-    margin: 40px auto;
+.container {
+  width:50%;
+  margin-top: 2%;
+  text-align: center;
+  background-color: rgba(255,182,185,1);
+  margin-left: 560px;
+}
+
+.container2 {
+  width:50%;
+  margin-top: 2%;
+  background-color: rgba(255,182,185,1);
+  margin-left: 180px;
+
+}
+
+th{
+  padding: 10px;
+}
+
+#weatherPic {
+  width: 40px;
+  height: auto;
+}
+
+
+.display2 {
+ padding: 5px;
+ font-size:20px;
+ color:lightblue;
+color:white;
   }
+
+#search {
+  color: orange;
+  border-style: none;
+}
+
+#info {
+  text-align: center;
+}
+
+.question4 {
+  color:orange;
+  background-color: #22211f;
+}
+
+
+
+
+

@@ -5,19 +5,28 @@
    <meta name="viewport" content="width=device-width,initial-scale=1">
    <title>Daniela's portfolio</title>
    <link rel="" href="">
-   <link rel="stylesheet" href="styles.css"> 
-   <link rel="stylesheet" href="flexbox.css"> 
+   <link rel="stylesheet" href="styles.css">
+   <link rel="stylesheet" href="flexbox.css">  
    <link rel="prefetch" href="index.html">  
   </head>
   <body>
     <header>
-      <a class="home" href="index.html">Home</a>
-      <h1 class="headers">Projects</h1>
+      <div class= "solidBorder">
+       <ul class="icons">
+        <li><a href="about.html">About</a></li>
+        <li><a href="education.html">Education</a></li>
+        <li><a class="right" href="index.html">Home</a></li>
+        <li class="center">Projects</li>
+      </div>
     </header>
-    <main>
-     <ul class="skills">
-      <li>Pick Up Sports web app</li>
-     </ul>
-    </main>
+     <main>
+      <div class="training">
+        <h3>Weather App</h3>
+        <p class="trainInfo">This project consists of creating an app that takes the name of any city via input and display a seven day forcast. The main point of this project is learn how to get info from the API and handle multiple promises.</p>
+        <img  src=wether.png class="projectImg">
+        <h3>Vamos Sports app</h3>
+        <p class="trainInfo"> Vamos Sports is a mobile app that I am currently working on. It will be a way to orginize sporting events.</p>
+      </div>
+     </main>
   </body>
  </html>  
